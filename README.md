@@ -20,7 +20,7 @@ list your docker images
 
 `docker images`
 
-build and start a docker container with the name hello-docker-container, using thing image hello-docker-image:1. Run in a detached state.
+build and start a docker container with the name hello-docker-container, using the image hello-docker-image:1. Run in a detached state.
 
 `docker run --name hello-docker-container -d hello-docker-image:1`
 
@@ -32,7 +32,7 @@ list all your docker containers (running and stopped).
 
 `docker container ls -a`
 
-stop a docker container immediately
+stop a docker container immediately (in 0 second)
 
 `docker stop -t 0 hello-docker-container`
 
